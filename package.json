@@ -1,0 +1,23 @@
+{
+  "name": "uniswap-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@uniswap/sdk-core": "^3.1.0",
+    "@uniswap/v3-sdk": "^3.9.0"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@uniswap/smart-order-router": "^3.0.6",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.3"
+  }
+}
